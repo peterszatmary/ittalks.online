@@ -3,20 +3,21 @@ layout: post
 title: (Linux) Work with PDF files
 date: 2014-08-21
 categories: linux
-tags: linux
+tags: linux pdf
 ---
 
-Rozdelenie jedného veľkého PDF súboru na viac malých:
+### One big file to multiple smaller
+
+Splitting one big PDF file to multiple smaller files:
 
 `pdftk largepdfile.pdf burst`
 
-Výsledkom bude viac malých pdf súborov v tvare: pg_XXXX.pdf, kde XXXX je poradové číslo.
+Result are multiple smaller PDF files with names:  pg_XXXX.pdf, where XXXX is order number.
 
-Spojenie viacerých malých PDF súborov do jedného:
+### Multiple smaller files to one big file
 
-`pdftk *.pdf cat output jediny.pdf`
+Merging multiple PDF files into one big file:
 
-Výsledkom bude PDF súbor s názvom jediny.pdf.
+`pdftk *.pdf cat output one.pdf`
 
-
-
+Result is one big PDF file named one.pdf.

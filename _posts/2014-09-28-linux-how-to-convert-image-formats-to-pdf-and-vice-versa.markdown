@@ -7,7 +7,7 @@ tags: linux
 ---
 
 
- V Linuxe to dokáže program **convert**
+V Linuxe to dokáže program **convert**
 
 Občas sa hodí veľmi rýchlo konvertovať obrázky povedzme vo formátoch jpg alebo png
  a ďalších do PDF formátu alebo naopak.

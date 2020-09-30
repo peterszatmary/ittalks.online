@@ -2,8 +2,8 @@
 layout: post
 title: (Linux) How to generate c code from assembler
 date: 2014-10-09
-categories: linux
-tags: linux C assembler
+categories: linux programming 
+tags: linux C assembler programming
 ---
 
 Niekedy sa môže hodiť rýchla tvorba Assembler kódu už z existujúceho kódu písaného v jazyku C. 

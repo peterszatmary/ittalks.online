@@ -6,7 +6,7 @@ categories: linux
 tags: linux
 ---
 
-Sometimes you need to know more about your CPU. Linux offer at least two nice commands to do so.
+Sometimes you need to know more about your CPU. Linux ofer at least two nice commands to do so.
 
 ## Command lscpu
 

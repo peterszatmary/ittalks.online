@@ -6,21 +6,20 @@ categories: linux
 tags: linux
 ---
 
-To, že príkaz apt-get slúži pre inštaláciu a deinštaláciu balíčkov a daľšiu prácu s nimi, 
-vie veľa používateľov. Avšak to, že tento nástroj vie aj mookat ako kravička, možno už menej z Vás.
+Command apt-get in Debian based linux distributions is used to install / uninstall software.
 
-Zistenie, či verzia apt vie mookat:
+But this command can make big mooo. Maybe you did not know it.
 
 `apt-get help`
 
-Výpis by mal na konci obsahovat informáciu:
+This help message contain at the end line:
 
 This APT has Super Cow Powers
 
 ![moohelp](/assets/icode/moohelp.png)
 
 
-A samotne mooooo zakričí apt nasledovne:
+You can doo mooo when you type:
 
 `apt-get moo`
 

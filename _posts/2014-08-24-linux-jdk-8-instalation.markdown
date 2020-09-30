@@ -6,36 +6,38 @@ categories: linux
 tags: linux
 ---
 
-Java Development Kit (JDK) je základný balík potrebný pre vývoj v jazyku java. 
-Je potrebné ho stiahnuť z Oracle stránok rozbaliť a nainštalovať. Inštalácia na operačných systémoch Windows 
-je priamočiarejšia a líši sa od inštalácie na operačných systémoch Linux.
+JDK ( Java Development Kit ) is base development package used by Java developers 
+to develop Java software.
 
-Po stiahnutí JDK a rozbalení.
+You need to download JDK files from Oracle site, extract and install it.
+
+Instalation on Windows machines is more straightforward. This is recipe for Linux.
+
+So after downloading and extracting JDK.
 
 
 ```
-# iba ak /usr/lib/jvm/ neexistuje
+# if /usr/lib/jvm/ does not exist
 sudo mkdir -p  /usr/lib/jvm/ 
-# presun rozbalených súborov
+# move of files already extracted
 sudo mv jdk-7-oracle/ /usr/lib/jvm/
-# pridanie repozitára
+# add repository
 sudo add-apt-repository ppa:nilarimogard/webupd8
-# aktualizácia repozitárov
+# updating repositories
 sudo apt-get update
-# inštalácia nástroja update-java
+# instalation of tool update-java
 sudo apt-get install update-java
-# spustenie nástroja update-java, ktorým nastaví defaultná verzia JDK alebo JRE
+# run tool update-java. with it you can set default version of JDK alebo JRE
 sudo update-java
 ```
 
-Po spustení nástroja update-java stačí vybrať verziu JDK alebo JRE a potvrdiť voľbu.
+After you run update-java everything you need is choose version of JDK or JRE and apply the selection.
 
-Pre kontrolu správnosti stačí zadať:
-
+Control if installation was successful.
 
 ```
-# kontrola verzie javy
+# java version control
 java -version
-# kontrola verzia prekladača javy
+# javac version control
 javac -version</pre> 
 ```
