@@ -1,23 +1,23 @@
 ---
 layout: post
-title: (Linux) How to captured screen to video
+title: (Linux) How to capture screen to video
 date: 2015-08-24
 categories: linux
 tags: linux
 ---
 
-**XVidCap**  s video kodekom MPEG4. Nástroj je jednoduchý a používa sa veľmi ľahko.
+**XVidCap** with video codec MPEG4. Tool is simple therefore the usage too.
 
-**Inštalácia**
+**Instalation**
 
-Je nutné pridať repozitár do **/etc/apt/sources.list** pridaním riadku **deb http://www.deb-multimedia.org squeeze main**.
+Add repository into **/etc/apt/sources.list** by adding line **deb http://www.deb-multimedia.org squeeze main**.
 
 ```
-# update repozitárov
+# update of repositories
 sudo apt-get update
-# inštalácia GPG kľúča repozitára
+# instalation of GPG key of repository
 sudo apt-get install deb-multimedia-keyring
-# inštalácia xvidcap
+# instalation of xvidcap
 sudo apt-get install xvidcap
 ```
 
