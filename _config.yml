@@ -24,7 +24,7 @@ author: Peter Szatmary
 description: >- # this means to ignore newlines until "baseurl:"
   Blog description. Will come later.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://peterszatmary.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ittalks.online" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: peter.szatmary
 github_username:  peterszatmary
 linkedin_username: peter-szatmary
