@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) How to capture screen to video
+title: How to capture screen to video
 date: 2015-08-24
 categories: linux
 tags: linux

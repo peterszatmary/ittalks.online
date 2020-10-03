@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) How to convert html file to pdf file
+title: How to convert html file to pdf file
 date: 2015-07-26
 categories: linux
 tags: linux

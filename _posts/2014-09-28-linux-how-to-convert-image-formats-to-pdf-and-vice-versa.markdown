@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) How to convert image formats to pdf and vice versa
+title: How to convert image formats to pdf and vice versa
 date: 2014-09-28
 categories: linux
 tags: linux

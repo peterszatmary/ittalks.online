@@ -20,7 +20,9 @@
 
 title: ITtalks.online
 email: peter.szatmary@gmail.com
-author: Peter Szatmary
+author:
+  name: Peter Szatmary
+  picture: /assets/imgs/me.jpg
 description: >- # this means to ignore newlines until "baseurl:"
   Blog description. Will come later.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -37,6 +39,21 @@ plugins:
 
 logo: /assets/imgs/logo-b.png
 
+footer_links:
+  - title: CV
+    url: https://peterszatmary.com/
+    icon: fas fa-window-restore
+  - title: GitHub
+    url: https://github.com/peterszatmary
+    icon: fab fa-github-square
+  - title: Linkedin
+    url: https://www.linkedin.com/in/peter-szatmary/
+    icon: fab fa-linkedin
+  - title: AI
+    url: https://peterszatmary.com/ai
+    icon: fab fa-android
+
+google_analytics: UA-NNNNNNNN-N
 
 # Exclude from processing.
 # The following items will not be processed, by default.

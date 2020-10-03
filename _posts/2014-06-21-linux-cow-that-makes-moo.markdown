@@ -1,9 +1,10 @@
 ---
 layout: post
-title: (Linux) Cow that makes moo
+title: Cow that makes moo
 date: 2014-09-28
 categories: linux
 tags: linux
+page.image.thumbnail: /assets/icode/moo.png
 ---
 
 Command apt-get in Debian based linux distributions is used to install / uninstall software.

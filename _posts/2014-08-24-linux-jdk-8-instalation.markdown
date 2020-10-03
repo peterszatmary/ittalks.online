@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) JDK instalation
+title: JDK instalation
 date: 2014-08-24
 categories: linux
 tags: linux

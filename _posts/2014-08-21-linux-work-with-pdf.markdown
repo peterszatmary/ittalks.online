@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) Work with PDF files
+title: Work with PDF files
 date: 2014-08-21
 categories: linux
 tags: linux pdf

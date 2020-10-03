@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) How to generate c code from assembler
+title: How to generate c code from assembler
 date: 2014-10-09
 categories: linux programming 
 tags: linux C assembler programming

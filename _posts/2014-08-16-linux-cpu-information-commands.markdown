@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) CPU information commands
+title: CPU information commands
 date: 2014-08-16
 categories: linux
 tags: linux

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) Downloading videos from youtube
+title: Downloading videos from youtube
 date: 2015-09-14
 categories: linux
 tags: linux

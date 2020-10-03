@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) How to change priority of running process
+title: How to change priority of running process
 date: 2015-09-14
 categories: linux
 tags: linux

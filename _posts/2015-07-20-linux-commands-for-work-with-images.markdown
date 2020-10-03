@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Linux) Commands for work with images
+title: Commands for work with images
 date: 2015-07-20
 categories: linux
 tags: linux
