@@ -6,28 +6,30 @@ categories: linux
 tags: linux
 ---
 
-Príkaz (program) wkhtmltopdf dokáže konvertovať html súbor do PDF súboru.
+Command wkhtmltopdf is able to convert HTML files to PDF.
+
+PDF format pro is that file in this format looks in same way on any operating system.
 
 ![wkhtmltopdf](/assets/icode/wkhtmltopdf.png)
 
-### Konvert vzdialeného html do pdf
+### Convert of remote HTML to PDF
 
-Povezme, že sa nám zapáčila stránka [google.com](https://google.com) natoľko, že ju potrebujeme ako pdf súbor.
+Let us say we would like to convert [google.com](https://google.com) to PDF.
 
-`wkhtmltopdf https://www.google.com google.pdf`
+```
+wkhtmltopdf https://www.google.com google.pdf
+```
 
-Výsledkom je súbor **google.pdf**.
+Result is **google.pdf** file.
 
 
-### Konvert lokálneho html do pdf
+### Convert local HTML to PDF
 
-Povedzme, že máme html stránku lokálne v našom pc uloženú na 
-ceste */home/Downloads/page.html* a takisto ju chceme konvertovať do pdf formátu.
+Converting looks same as with remote html. Difference is URL that we typed. 
+File is located in */home/Downloads/page.html* Instead of URL we will use path to file.
 
 `wkhtmltopdf file:///home/Downloads/page.html pageinpdf.pdf`
 
-Výsledkom je pdf súbor **pageinpdf.pdf**.
+Result is file **pageinpdf.pdf**.
 
-Toto boli 2 najzákladnejšie ukážky použitia. 
-
-Pre viac info sa oplatí pozrieť [wkhtmltopdf docs](http://wkhtmltopdf.org/docs.html) alebo help  `wkhtmltopdf -H`.
+For more information try [wkhtmltopdf docs](http://wkhtmltopdf.org/docs.html) or help `wkhtmltopdf -H`.

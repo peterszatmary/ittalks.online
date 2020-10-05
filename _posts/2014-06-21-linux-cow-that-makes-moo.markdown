@@ -9,7 +9,7 @@ page.image.thumbnail: /assets/icode/moo.png
 
 Command apt-get in Debian based linux distributions is used to install / uninstall software.
 
-But this command can make big mooo. Maybe you did not know it.
+This command can make big mooo. Maybe you did not know it.
 
 `apt-get help`
 

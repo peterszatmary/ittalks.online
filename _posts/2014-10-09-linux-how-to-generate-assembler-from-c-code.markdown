@@ -1,17 +1,17 @@
 ---
 layout: post
-title: How to generate c code from assembler
+title: How to generate assembler from C code
 date: 2014-10-09
 categories: linux programming 
 tags: linux C assembler programming
 ---
 
-Niekedy sa môže hodiť rýchla tvorba Assembler kódu už z existujúceho kódu písaného v jazyku C. 
-Minimálne si takto môžu uľahčiť prácu študenti pre svoje zadania v Assembleri alebo sa takto môžu zvedavci učiť.
+Generating Assembler code from C code can be useful. At least students can learn what
+ C code means in lower level assembler code.
+ 
+**gcc (the GNU Compiler Collection)** can do it for you. 
 
-Reč je o nástroji **gcc (the GNU Compiler Collection)** a o jeho šikovnom prepínači **-S**. 
-
-Majme jednoduchý kód v jazyku C. Súbor nazvime hello.c.
+Let the following C code in file hello.c.
 
 ### hello.c
 
@@ -23,11 +23,11 @@ main() {
 ```
 
 
-Nasledujúci príkaz v Linux terminály... 
+translate with
 
 `gcc -S -o hello.s hello.c`
 
-Vygeneruje súbor hello.s s at&t syntaxou.
+into hello.s in at&t syntax.
 
 ### hello.s
  
@@ -60,11 +60,11 @@ main:
 	.section	.note.GNU-stack,"",@progbits</pre> 
 ```
 
-Nasledujúci príkaz v Linux terminály...
+You can of course manipulate with syntax. Let us try Intel syntax
  
 `gcc -S -masm=intel -o hellointel.s hello.c`
 
-Vygeneruje súbor hellointel.s s intel syntaxou.
+Resulting file hellointel.s in intel syntax looks like this .
 
 ### hellointel.s
  

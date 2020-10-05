@@ -6,30 +6,27 @@ categories: linux
 tags: linux
 ---
 
-Pre Linux používam command line aplikáciu napísanú v pythone s názvom **youtube-dl**
-skrátene od youtube downloader.
+**youtube-dl** can donwload files from youtube to your local computer.
 
-Aplikácia sa používa veľmi jednoducho, má množstvo prepínačov ( pre záujmcov man youtube-dl ).
+youtube-dl is short for youtube downloader and is written in python.
 
-### Základné použitie
+### Basic usage
 
-Základné použitie spočíva v pridaní url videa, ktoré sa ide kopírovať z youtube.com
+donwload video by passing video url.
  
 `youtube-dl https://www.youtube.com/watch?v=WPvGqX-TXP0` 
 
 
-### Kvalita stihanutého videa
+### Video quality
 
-Čo zvyknem používať je ovplyvňovanie kvality stiahnutého videa. Slúži na to prepínač -F.
-
-Zistenie dostupných kvalít:
+First check what video qualities you can download
 
 `youtube-dl -F https://www.youtube.com/watch?v=WPvGqX-TXP0`  
 
 ![youtube-dl](/assets/icode/ydl1.png)
 
 
-Následný výber jednej z nich použitím čiselného označenia. Slúži na to prepínač -f.
+Then choose quality number from previous list. 
 
 `youtube-dl -f 22 https://www.youtube.com/watch?v=WPvGqX-TXP0`
 
