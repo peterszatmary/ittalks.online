@@ -6,54 +6,54 @@ categories: linux
 tags: linux
 ---
 
-Článok pojednáva o 4 základných operáciách so súbormi a 3 príkazoch pomocou, 
-ktorých ich možno vykonať pod operačným systémom Linux. Sú to delenie súboru, 
-spájanie súborov, mazanie textu so súboru a pridávanie textu do súboru pomocou príkazov
+The article deals with 4 basic operations with files and 3 commands using,
+which can be performed under the Linux operating system. They are file splitting,
+merge files, delete text from a file, and add text to a file using commands
 
 **split**, **cat**, **sed**.
 
-### Rozdelenie súboru
+### Spliting the file
 
-jednoduché delenie súboru možno docieliť príkazom **split**.
+simple file splitting can be achieved with the ** split ** command.
 
-Majme súbor input.txt, ktorý má 2000 riadkov. Príkaz
+Let's have an input.txt file that has 2000 lines. Command
 
-`split -l 500 input.txt prefix` 
+`split -l 500 input.txt prefix`
 
-rozdelí súbor na 4 súbory po 500 riadkov a to :
+divides the file into 4 files of 500 lines, namely:
 
-- prefixaa
+- prefix
 - prefixab
 - prefixac
-- prefixad
+- prefixed
 
 
-### Spájanie súborov
+### Merging Files
 
-Pre spájanie súborov plne postačí dobre známy **cat**.
-Spojenie súborov, ktoré nám vznikli v minulom kroku a to prefixaa, prefixab, prefixac, 
-prefixad vykonáme nasledovne :
+The well-known ** cat ** is fully sufficient for merging files.
+The combination of files created in the last step, prefixaa, prefixab, prefixac,
+prefixad is performed as follows:
 
 `cat prefixaa prefixab prefixac prefixad > oneFile.txt`
 
-Výstupom je súbor oneFile.txt, ktorý bude totožný so súborom input.txt s predošlého príkladu.
+The output is a oneFile.txt file, which will be identical to the input.txt file from the previous example.
 
 
-Pre viac info `man cat`
+For more info `man cat`
 
-### Pridávanie textu do súboru
+### Add text to a file
 
-Povedzme, že chceme pridať text "pridane dna ..." na riadok číslo 20 do súboru input.txt.
+Let's say we want to add the text "added bottoms ..." to line number 20 in the input.txt file.
 
-`sed -i".tmp" '20ipridane dna ...' input.txt`
+`sed -i" .tmp "'20ipridane dna ...' input.txt`
 
 
-### Mazanie textu zo súboru
+### Delete text from a file
 
-Povedzme, že chceme vymazať text "pridane dna ..." z riadku číslo 20 zo súboru input.txt.
+Let's say we want to delete the text "added bottoms ..." from line number 20 from the input.txt file.
 
-`sed -i".tmp" '20,20d' input.txt`
+`sed -i" .tmp "'20, 20d 'input.txt`
 
-Tento zápis vie mazať interval riadkov od - do. Keďže údaj od, do je totožný a to 20 , vymažeme iba jeden riadok a to 20-ty.
+This entry can delete a line interval from - to. Since the data from, to is identical, namely 20, we will delete only one line, namely the 20th.
 
-Pre viac info `man sed`
+For more info `man sed`

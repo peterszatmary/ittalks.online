@@ -6,27 +6,22 @@ categories: linux
 tags: linux
 ---
 
-Dnešná rýchlovka bude o Linuxe a dolovaní informácií. 
-Informácie o Vašej Linux distribúcii sa zisťujú aj v termináli.
+Command **lsb_release** can list information about your installed Linux distribution.
 
-Slúži na to príkaz **lsb_release**, ktorý vypisuje špecifické informácie o 
-Vašej práve nainštalovanej Linux distribúcii.
+Abreviation lsb stands for Linux Standard Base. For more information about command 
+`man lsb_release` or [man lsb_release site](http://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/lsbrelease.html).
 
-Skratka lsb je z anglického Linux Standard Base. Pre viac informácii o 
-tomto príkaze využite man stránky man lsb_release alebo <a href="http://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/lsbrelease.html" title="odkaz na man lsb_release">odkaz man lsb_release</a>.
-
-### Použitie
+### Usage
 
 `lsb_release -a`
 
-vypíše napríklad nasledujúce
+is resulting to
 
 ![lscpu](/assets/icode/lsb.png)
 
-Čo znamená:
 
-- **LSB version:** názov modulu, verzia a názov architektúry
-- **Distributor ID:** reťazec reprezentujúci meno distribútora distribúcie
-- **Description:** opis distribúcie, v tomto prípade je to ID distribútora nasledovaná číslom distribúcie
-- **Release:** číslo distribúcie
-- **Codename:** kódove označenie distribúcie
+- **LSB version:** module name, version, and architecture name
+- **Distributor ID:** a string representing the name of the distribution distributor
+- **Description:** a description of the distribution, in this case the distributor ID followed by the distribution number
+- **Release:** Distribution version number
+- **Codename:** Distribution code name
