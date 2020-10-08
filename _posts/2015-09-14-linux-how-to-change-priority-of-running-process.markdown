@@ -9,7 +9,7 @@ tags: linux
 Priority of running process tells you how often operating system should allocate
 CPU resources.
 
-Bigger priority means that CPU are allocated to processes more often which means
+Bigger priority means that CPU is allocating to processes more often which means
 that processes have more CPU process time for usage. This means that the process with bigger priority
 can be faster than same process with lower piority.
 
