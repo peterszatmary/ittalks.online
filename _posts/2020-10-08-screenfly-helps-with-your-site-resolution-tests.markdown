@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ScreenFly helps with your site resolution
+title: ScreenFly helps with your site resolution tests
 date: 2020-10-08
 categories: programming
 tags: programming
