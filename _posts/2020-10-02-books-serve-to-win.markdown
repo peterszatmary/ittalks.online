@@ -2,8 +2,8 @@
 layout: post
 title: Serve to win (Novak Djokovic)
 date: 2020-10-02
-categories: books
-tags: books
+categories: books in-slovak
+tags: books in-slovak
 ---
 
 

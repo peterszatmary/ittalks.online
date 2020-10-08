@@ -2,8 +2,8 @@
 layout: post
 title: Grafická reprezentácia krivky učenia sa vyjadrená v pojmoch
 date: 2020-10-01
-categories: uvaha
-tags: uvaha
+categories: in-slovak
+tags: in-slovak uvaha
 ---
 
 Ako by ste znázornili to ako rýchlo sa učíte a zároveň ako veľa ste sa už naučili ?

@@ -34,10 +34,10 @@ public class Walker {
 public class Walker {
     public static walk(String path, int d) {
         File root = new File(path);
-        List&lt;File&gt; ex = new LinkedList&lt;File&gt;();
+        List<File> ex = new LinkedList<File>();
         ex.add(root);
 
-        for (int depth = 0; depth &lt; d; depth++) {
+        for (int depth = 0; depth < d; depth++) {
             File[] fs = ex.toArray(new File[ex.size()]);
             ex.clear();
             for (File file: fs) {

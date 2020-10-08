@@ -2,8 +2,8 @@
 layout: post
 title: The subtle art of not giving a fuck
 date: 2020-10-06
-categories: books
-tags: books
+categories: books in-slovak
+tags: books in-slovak
 page.image.thumbnail: /assets/imgs/the-subtle-art-of-not-giving-a-fuck.jpg
 ---
 

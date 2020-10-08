@@ -1,8 +1,8 @@
 ---
 title: In Slovak
 layout: category
-permalink: /categories/uvaha/
-taxonomy: uvaha
+permalink: /categories/in-slovak/
+taxonomy: in-slovak
 ---
 
 Tato sekcia TODO
