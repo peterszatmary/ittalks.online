@@ -20,7 +20,7 @@ If you need speed up or slow down the application renice and
  
  First list running processes and find your process.
  
- Let su find Caja. Caja copies files in this example and it is slow. Caja
+ Let su find Caja. Caja copies files in this example, and it is slow. Caja
  is oficial file manager for Mate desktop.  
 
 `ps -e -o pid,ni,cmd | grep caja`

@@ -6,13 +6,13 @@ categories: linux
 tags: linux
 ---
 
-**youtube-dl** can donwload files from youtube to your local computer.
+**youtube-dl** can download files from youtube to your local computer.
 
 youtube-dl is short for youtube downloader and is written in python.
 
 ### Basic usage
 
-donwload video by passing video url.
+download video by passing video url.
  
 `youtube-dl https://www.youtube.com/watch?v=WPvGqX-TXP0` 
 

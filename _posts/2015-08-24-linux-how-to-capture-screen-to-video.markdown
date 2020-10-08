@@ -6,7 +6,7 @@ categories: linux
 tags: linux
 ---
 
-**XVidCap** with video codec MPEG4. Tool is simple therefore the usage too.
+**XVidCap** with a video codec MPEG4. Tool is simple therefore the usage too.
 
 **Instalation**
 

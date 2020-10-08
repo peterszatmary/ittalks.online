@@ -25,7 +25,7 @@ Result is **google.pdf** file.
 
 ### Convert local HTML to PDF
 
-Converting looks same as with remote html. Difference is URL that we typed. 
+Converting looks same as with a remote html. Difference is URL that we typed. 
 File is located in */home/Downloads/page.html* Instead of URL we will use path to file.
 
 `wkhtmltopdf file:///home/Downloads/page.html pageinpdf.pdf`

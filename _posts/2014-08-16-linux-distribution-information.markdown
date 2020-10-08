@@ -8,7 +8,7 @@ tags: linux
 
 Command **lsb_release** can list information about your installed Linux distribution.
 
-Abreviation lsb stands for Linux Standard Base. For more information about command 
+Abbreviation lsb stands for Linux Standard Base. For more information about command 
 `man lsb_release` or [man lsb_release site](http://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/lsbrelease.html).
 
 ### Usage

@@ -11,7 +11,7 @@ to develop Java software.
 
 You need to download JDK files from Oracle site, extract and install it.
 
-Instalation on Windows machines is more straightforward. This is recipe for Linux.
+Installation on Windows machines is more straightforward. This is recipe for Linux.
 
 So after downloading and extracting JDK.
 
@@ -31,7 +31,7 @@ sudo apt-get install update-java
 sudo update-java
 ```
 
-After you run update-java everything you need is choose version of JDK or JRE and apply the selection.
+After you run update-java everything you need is choose a version of JDK or JRE and apply the selection.
 
 Control if installation was successful.
 
