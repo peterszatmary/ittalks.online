@@ -15,7 +15,7 @@ Let the following C code in file hello.c.
 
 ### hello.c
 
-```
+```c
 #include<stdio.h>;
 main() {
     printf("Hello World");
@@ -31,7 +31,7 @@ into hello.s in at&t syntax.
 
 ### hello.s
  
-```
+```assembly
     .file	"hello.c"
 	.section	.rodata
 .LC0:
@@ -68,7 +68,7 @@ Resulting file hellointel.s in intel syntax looks like this .
 
 ### hellointel.s
  
-```
+```assembly
     .file	"hello.c"
 	.intel_syntax noprefix
 	.section	.rodata

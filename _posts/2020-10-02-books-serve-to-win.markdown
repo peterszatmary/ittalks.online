@@ -11,7 +11,7 @@ tags: books
 [Novak Djokovič](https://novakdjokovic.com/en/) je jeden z najlepších profesionálnych tenistov súčastnosti aj všetkých čias.
 Roku 2011 vydal knižku, **[Naservírujte si výťazstvo](https://www.megaknihy.sk/svetove/277615-serve-to-win.html)**
 
-Nasledúce riadky budú ľahkým výcucom toho , čo som považoval za najdôležitejšie.
+Nasledujúce riadky budú ľahkým výcucom toho, čo som považoval za najdôležitejšie.
 
 ![Naservírujte si výťazstvo](/assets/imgs/serve-to-win.jpg)
 
