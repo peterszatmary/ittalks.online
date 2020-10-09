@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Java - Rekurzívne a nerekurzívne prechádzanie adresárovou štruktúrou
+title: Java - Recursive and non-recursive directory structure traversal
 date: 2014-08-19
 categories: programming java
 tags: programming java
 page.image.thumbnail: TODO
 ---
 
-Napriek tomu, že prechádzanie adresárovej štruktúry file systému má čisto rekurzívnu povahu, v článku ukážem ten
- istý problém riešený aj rekurzívne aj nerekurzívne. Programový kód je písaný v jazyku Java.
+Although traversing the directory structure of the file system is purely recursive, I will show in the article the 
+problem solved in both ways - recursively and non-recursively. The program code is written in Java.
 
-
-### Rekurzívna verzia
+### Recursive version
 
 ```java
 public class Walker {
@@ -28,7 +27,7 @@ public class Walker {
 ```
 
 
-### Nerekurzívna verzia
+### Non-recursive version
 
 ```java
 public class Walker {

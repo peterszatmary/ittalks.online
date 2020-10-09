@@ -6,5 +6,3 @@ taxonomy: programming
 ---
 
 ![Programming](/assets/imgs/programming.jpg)
-
-Tato sekcia TODO

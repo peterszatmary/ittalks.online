@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Java - Rozoznanie typu virtuálneho stroja JVM
+title: Java - JVM virtual machine type recognition
 date: 2014-08-17
 categories: programming java
 tags: programming java
 page.image.thumbnail: TODO
 ---
 
-Existuje viacero typov virtuálneho stroja JVM, nad ktorým môže bežať vaša aplikácia. 
-Rozoznať implementáciu JVM možno nasledovným kódom.
+There are several types of JVMs that your application can run on.
+The following code can be identified by the JVM implementation.
 
 ```java
 public class JvmTypeChecker() {

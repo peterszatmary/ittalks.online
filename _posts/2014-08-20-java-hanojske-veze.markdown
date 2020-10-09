@@ -1,42 +1,41 @@
 ---
 layout: post
-title: Java - Hanojské veže
+title: Java - Tower of Hanoi
 date: 2014-08-20
 categories: programming java
 tags: programming java
 page.image.thumbnail: TODO
 ---
 
-Hanojské veže je známa matematická hra. Pozostáva z troch stĺpov a istého počtu diskov rôznej veľkosti. 
-Hra sa začína s počtom diskov na ľavej strane, ktoré sú poukladané od najväčšieho disku po najmenší. 
-Hra sa končí, keď sa podarí hráčovi premiestniť v rovnakom poradí všetky disky na posledný stĺp. 
-Je však nutné dodržať dve pravidlá:
+Tower of Hanoi is a famous mathematical game. It consists of three columns and a number of disks of different sizes.
+The game starts with the number of discs on the left, which are stacked from the largest disc to the smallest.
+The game ends when the player manages to move all the discs to the last column in the same order.
+However, two rules must be followed:
 
-- v jednom ťahu je možné hýbať iba jedným diskom
-- disk možno položiť iba na väčší disk alebo na prázdny stĺp. 
+- Only one disc can be moved in one turn
+- A disc can only be placed on a larger disc or on an empty column.
 
-![hanojské veže](/assets/icode/impl01.gif)
+![Tower of Hanoi](/assets/icode/impl01.gif)
 
-Problematika má rekurzívny charakter a v Jave by implementácia mohla vyzerať nasledovne.
+The problem is recursive and in Java the implementation could look like this.
 
 ```java
 public class Main {
 
     /**
-     * @param n pocet diskov
-     * @param begin startovaci stlp
-     * @param end koncovy stlp
-     * @param tah ku stlpcu cislo
-     * @return pocet vsetkych tahov, musi byt upraveny o hodnotu - 1
+      * @param n number of disks
+      * @param begin start column
+      * @param end end column
+      * @return number of all moves, must be adjusted by the value - 1
      */
-    public static long hanoi(int n, int begin,int end,int toPutt) {
+    public static long hanoi(int n, int begin, int end, int toPutt) {
         long x = 1;
         long y = 1;
-        if(n &gt; 1) {
+        if(n > 1) {
             x = hanoi(n - 1, begin, toPutt, end);
         }
         System.out.println("Move " + n + " from tower " + begin + " to tower " + end);
-        if(n &gt; 1) {
+        if(n > 1) {
             y = hanoi(n - 1, toPutt, end, begin);
         }
         return x + y;
@@ -54,19 +53,19 @@ public class Main {
 }
 ```
 
-Metóda okrem toho, že vypíše každý jeden pohyb, vráti aj optimálny počet ťahov. 
-Optimálny počet ťahov je rovný: 2n - 1 , kde n je počet diskov v hre.
+In addition to listing every single move, the method also returns the optimal number of moves.
+The optimal number of moves is equal to: 2n - 1, where n is the number of discs in the game.
 
-Príklady:
+Examples:
 
-- 3 disky: 7 ťahov
-- 4 disky: 15 ťahov
-- 5 diskov: 31 ťahov
-- 6 diskov: 63 ťahov
-- 7 diskov: 127 ťahov 
+- 3 discs: 7 moves
+- 4 discs: 15 moves
+- 5 discs: 31 moves
+- 6 discs: 63 moves
+- 7 discs: 127 moves
 ...
 
-Výstupom pre uvedené volanie, kde rátame 4 disky na 3 stĺpoch je:
+The output for this call, where we count 4 disks on 3 columns, is:
 
 
 ![Hanoi](/assets/icode/hanoi-300x226.png)
