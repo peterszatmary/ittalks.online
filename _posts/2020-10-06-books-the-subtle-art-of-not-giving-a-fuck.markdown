@@ -18,8 +18,9 @@ knižke dodáva svieži moderný nádych.
 
 Svojho času som si pár zaujímavých myšlienok, ktoré ponúknem nižšie, vypísal na papieriky a nalepil na chladničku.
 
-Časom sa slnko rozhodlo vyťahať z týchto výpiskov všetky farby, a tak som sa rozhodol ich napísať sem. 
+Časom sa slnečné lúče vyťahali z týchto výpiskov všetky farby, a tak som sa rozhodol ich napísať sem. 
 Prepis nebol jednoduchý, podobal sa miestami na rekonštrukciu nejakých historických textov, čo do obťiažnosti čítania.
+Nakoniec sa to podarilo aj bez opätovného prehľadávania v knihe.
 
 
 ### Zopár zaujímavých myšlienok.
@@ -31,7 +32,7 @@ Prepis nebol jednoduchý, podobal sa miestami na rekonštrukciu nejakých histor
 - Nikdy nebudeš šťastný, ak neprestaneš pátrať po tom v čom spočíva šťastie. Nikdy nebudeš skutočne žiť, ak neprestaneš neprestaneš hľadať zmysel života.
 - Nesnívaj o živote bez problémov. Snívaj o živote plnom dobrých problémov.
 - Utrpenie je z hľadiska rokov užitočné. Podniecuje k zmene. Nespokojnosť a neistota sú predpokladmi pre inovácie a prežitie.
-- Najúžasnejšou zbraňou proti stresu osvojiť si schopnosť vybrať si jednu myšlienku pred druhou.
+- Najúžasnejšou zbraňou proti stresu je osvojiť si schopnosť vybrať si jednu myšlienku pred druhou.
 - Ak viete zmeniť svoju myseľ, viete zmeniť aj svoj život. (If you can change your mind, you can change your life).
 - Človek si vlastnú hodnotu nebuduje cez pocity, ktoré v ňom vyvolávajú pozitívne skúsenosti, ale skôr to, čov ňom zanechávajú tie negatívne.
 - Riešenie jedného problému nie je nič iné len začiatkom nového. Život je pritom nikdy nekončiaca séria problémov.
