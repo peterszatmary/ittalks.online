@@ -57,7 +57,6 @@ Tento parameter hovorí o tom, ktorá trieda spustí aplikáciu.
 
   <build>
     <plugins>
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
@@ -92,7 +91,7 @@ Tento parameter hovorí o tom, ktorá trieda spustí aplikáciu.
           </archive>
         </configuration>
       </plugin>
-
+    </plugins>
   </build>
 
   <dependencies>

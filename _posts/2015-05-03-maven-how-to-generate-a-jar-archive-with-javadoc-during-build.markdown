@@ -1,21 +1,20 @@
 ---
 layout: post
-title: Maven - Ako pri builde vygenerovať jar s Javadoc-om
+title: Maven - How to generate a jar archive with Javadoc during build
 date: 2015-05-03
 categories: programming maven
 tags: programming maven
 page.image.thumbnail: TODO
 ---
 
-Ak je potrebné Maven naučiť generovať javadoc do jar archívu slúži na to plugin 
+If you need to learn Maven to generate a javadoc to the jar archive, use plugin
 [maven-javadoc-plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/).
 
-**Po spustení** 
+**After run** 
 
 `mvn:install` 
 
-sa vygeneruje aj jar archív *szatmary.peter.rest.dopatra-1.0-SNAPSHOT-javadoc.jar* obsahujúci javadoc dokumentáciu projektu.
-
+a jar archive *szatmary.peter.rest.dopatra-1.0-SNAPSHOT-javadoc.jar* containing javadoc project documentation is also generated.
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -49,6 +48,7 @@ sa vygeneruje aj jar archív *szatmary.peter.rest.dopatra-1.0-SNAPSHOT-javadoc.j
           </execution>
         </executions>
       </plugin>
+    </plugins>
   </build>
 
   <dependencies>

@@ -7,39 +7,50 @@ tags: programming java
 page.image.thumbnail: TODO
 ---
 
-Často kladená otázka napríklad aj na pohovoroch ohľadom jazyka Java môže byť práve rozdiel medzi triedami 
-String, StringBuilder a StringBuffer.
+A frequently asked question, for example in Java interviews, can be the difference between classes
+String, StringBuilder and StringBuffer.
 
-*String* je finálna trieda, znamená to, že s každou úpravou jednej inštancie String-u vzniká
- ako výsledok nová inštancia Stringu. Konkrétne sa tak deje v takzvanom String poole.
-Pri triedach StringBuilder a StringBuffer tomu tak nieje.
+### String
 
-Inými slovami trieda *String* je *immutable* a triedy *StringBuilder* a *StringBuffer* sú *mutable*.
+is the final class, meaning that it is created with each modification of one String instance
+  as a result, a new instance of String. Specifically, this happens in the so-called String pool.
+This is not the case with the StringBuilder and StringBuffer classes.
 
-Z tejto informácie vyplýva, že ak v aplikácii potrebujeme často editovať, meniť, mazať pridávať 
-časti k jednému reťazcu atď ideálne bude použitie tried *StringBuilder, StringBuffer*. 
-V opačnom prípade zaťažíme JVM pamäť. (neoptimálne využitie Heap pamäte).
+In other words, the *String* class is *immutable*, and the *StringBuilder* and *StringBuffer* classes are *mutable*.
 
-Neoptimálne je preto napríklad časté použitie operátora plus pri spájaní String-ov.
+This information shows that if we often need to edit, change, delete or add in the application
+parts to a single string, etc. Ideally, the use of the *StringBuilder, StringBuffer* classes will be used.
+Otherwise, we load the JVM memory. (suboptimal Heap memory usage).
 
+It is therefore not optimal, for example, to use the plus operator frequently when joining strings.
+
+```java
+String b = "Hello"
+String a = b + " world";
 ```
-String b = "Ahoj"
-String a = b + " svet";
-```
 
-V tomto prípade by bolo ideálnejšie použitie
+More optimal is
 
-```
-String b = " svet";
+```java
+String b = " world";
 StringBuilder str = new StringBuilder();
-str.append("Ahoj");
+str.append("Hello");
 str.append(b);
 ```
 
-*Rozdiel medzi StringBuilder a StringBuffer*
-Triedy slúžia na vykonávanie tých istých operácií avšak sú medzi nimi rozdiely.
-*Trieda StringBuilder* nie je Thread safe a je tým pádom rýchlejšia no nevhodná pre 
-použitie v multivláknových aplikáciách. Jej operácie nie sú synchronized.  
-*Trieda StringBuffer* je Thread safe a je tým pádom pomalšia avšak vhodná pre použitie v
- multivláknových aplikáciách. Jej operácie sú synchronized.
+So now without variables
+
+```java
+StringBuilder str = new StringBuilder();
+str.append("Hello ");
+str.append("world");
+```
+
+### Difference between StringBuilder and StringBuffer
+
+Classes are used to perform the same operations, but there are differences between them.
+**StringBuilder class** is not Thread safe and is therefore faster but not suitable for
+use in multithreaded applications. Operations are not synchronized.
+**The StringBuffer** class is Thread safe and is therefore slower but suitable for use in
+  multithreaded applications. Operations are synchronized.
 
