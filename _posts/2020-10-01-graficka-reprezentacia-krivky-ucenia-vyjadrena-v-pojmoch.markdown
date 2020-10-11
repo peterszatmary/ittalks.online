@@ -71,9 +71,11 @@ Ak by sme učenie zrýchľovali alebo vývoj domény sa spomaľovaľ viac a viac
 
 ![](/assets/imgs/learn/learn5.png)
 
+Ak by bolo učenie ešte rýchlejšie
+
 ![](/assets/imgs/learn/learn4.png)
 
-Obrazec by bol čím viac placatejší, pretože Y osa predstavuje čas učenia sa.
+obrazec by bol čím viac placatejší, pretože Y osa predstavuje čas učenia sa.
 
 To koľko sme sa naučili zase vyjadruje obsah obrazca. 
 
@@ -82,6 +84,8 @@ To koľko sme sa naučili zase vyjadruje obsah obrazca.
 Čo ak by bolo učenie pomalšie ako process tvorby nových pojmov ?
 
 ![](/assets/imgs/learn/learn7.png)
+
+A učenie by bolo ešte pomalšie.
 
 ![](/assets/imgs/learn/learn8.png)
 
