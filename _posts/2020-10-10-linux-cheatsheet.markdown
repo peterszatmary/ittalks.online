@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to capture screen to video
+title: Linux cheatsheet
 date: 2015-08-24
 categories: linux
 tags: linux
