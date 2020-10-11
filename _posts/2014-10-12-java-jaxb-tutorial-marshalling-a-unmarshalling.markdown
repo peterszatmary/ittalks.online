@@ -115,7 +115,7 @@ public class Address {
         return addressStr;
     }
 
-    @XmlElement(name="address")      // nastavil som nazov tagu, defaultne sa bere nazov tagu z nazvu prislusneho settera
+    @XmlElement(name="address")
     public void setAddressStr(String addressStr) {
         this.addressStr = addressStr;
     }
@@ -163,7 +163,7 @@ import java.io.File;
 public class Main {
     public static void main(String[] args) {
 
-        // tvorba a naplnenie objektu typu Person
+        // creation and filling of a Person object
         Person person = new Person();
         person.setAge(24);
         person.setId(1);
@@ -180,11 +180,11 @@ public class Main {
 
             final String PATH = System.getProperty("user.home") + System.getProperty("file.separator") + "java2xml.xml";
             File file = new File(PATH);
-            // zoznam tried, z ktorých sa má generovať
+            // list of classes from which to generate
             JAXBContext jaxbContext = JAXBContext.newInstance(Person.class);
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
-            // zformatuje vystup
+            // format the output
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
             jaxbMarshaller.marshal(person, file);
