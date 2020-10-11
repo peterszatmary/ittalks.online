@@ -7,35 +7,34 @@ tags: programming java
 page.image.thumbnail: TODO
 ---
 
-Článok bude pojednávať o tom ako jednoducho vytvoriť rôzne jazykové preklady pre aplikáciu programovanú
-v Play! frameworku. Používateľ si vie tak navoliť jazykovú mutáciu, ktorá mu najviac vyhovuje.
+The article will discuss how to easily create different language translations for a programmed application
+v Play! framework. The user can thus choose the language mutation that suits him best.
 
-Hovoríme o [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization), 
-čo je skratka pre [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization).
+We are talking about [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization), 
+what is abbreviation [Internationalization and localization](https://en.wikipedia.org/wiki/Internationalization_and_localization).
 
-
-V existujúcom projekte je potrebné vytvoriť **messages.xxx**  súbory. xxx je informácia o 
-[kóde jazyka](https://www.loc.gov/standards/iso639-2/php/code_list.php) (ISO 639-2 language code) plus nepovinne o 
-[kóde krajiny](http://data.okfn.org/data/core/country-list) (ISO 3166-1 alpha-2 country code). 
-Messages súbory uložte do adresára **conf/**.
-
-
-Príklad: en, en-US, fr čiže messages.en, messages.en-US, messages.fr. 
+You need to create **messages.xxx** files in an existing project. xxx is information about
+[language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php) (ISO 639-2 language code) plus nepovinne o 
+[country codes](http://data.okfn.org/data/core/country-list) (ISO 3166-1 alpha-2 country code). 
+Save the message files in the **conf/** directory.
 
 
-### Príklad i18n v Play!
+Example: en, en-US, fr čiže messages.en, messages.en-US, messages.fr. 
 
 
-Vytvoríme 2 jazykové mutácie. Anglicky a slovensky. 
+### Example of i18n v Play!
 
-Je potrebné o nich dať vedieť a to v súbore **conf/application.conf**.
+
+We will create 2 language mutations. English and Slovak.
+
+It is necessary to let them know about them in the file **conf/application.conf**.
 
 ```
 play.i18n.langs = [ "sk","en" ]
 ```
 
 
-### Slovenský preklad súbor messages.sk
+### Slovak translation file messages.sk
 
  
 ```
@@ -51,7 +50,7 @@ index.text.password_forgotten=Zabudol som heslo
 ``` 
 
 
-### Anglický preklad súbor messages.en
+### English translation file messages.en
 
  
 ```
@@ -68,32 +67,29 @@ index.text.password_forgotten=I forgot password
 
 ### View
 
-Na strane prezentácie (View) budeme odkazovať na texty pomocou ich kľúčov v súboroch messages.xxx.
-
+On the presentation page (View) we will refer to the texts using their keys in the messages.xxx files.
  
 ```
 <h1>@Messages("index.text.input.password")</h1>
 ```
 
+### Change to English translation:
 
-### Zmena jazyka
-
-Zmena na anglický preklad:
 ```
 Application.changeLang("en")
 ``` 
 
-Zmena na slovenský preklad:
+Change to Slovak translation:
+
 ```
 Application.changeLang("sk")
 ```
 
+For more info [play i18n](https://www.playframework.com/documentation/2.3.x/ScalaI18N)
 
-Pre viac info [play i18n](https://www.playframework.com/documentation/2.3.x/ScalaI18N)
+Kind of starting project you can [check here](https://bitbucket.org/peterszatmary/playstartproject)
 
-Cvičný Play projekt na bitbuckete si môžte [prezrieť tu](https://bitbucket.org/peterszatmary/playstartproject) 
-
-Ilustračné obrázky
+Illustration images
 
 ![sk](/assets/icode/sk.png)
 

@@ -1,38 +1,38 @@
 ---
 layout: post
-title: JAXB tutoriál - Marshalling a Unmarshalling
+title: Java - JAXB Tutorial - Marshalling and Unmarshalling
 date: 2014-10-12
 categories: programming java
 tags: programming java jaxb xsd
 page.image.thumbnail: TODO
 ---
 
-JAXB z anglického Java Architecture for XML Binding je významnou technológiou, ktorá 
-umožňuje jednoducho mapovať XML súbory na java objekty a naopak.
+JAXB from the English Java Architecture for XML Binding is a major technology that
+allows you to easily map XML files to java objects and vice versa.
 
-Navyše dokáže pracovať aj so schémami. Pre tento článok stačí, keď spomeniem [XSD](http://www.w3schools.com/schema/).
+In addition, it can work with schemes. For this article, just mention [XSD](http://www.w3schools.com/schema/).
 
-JAXB je súčasťou štadarného JDK od verzie 6. Momentálne je aktuálna verzia 2.2.12 (11.10.2014). 
+JAXB has been a part of the standard JDK since version 6. Currently, the current version is 2.2.12 (11.10.2014).
 
-Základné schopnosti tejto technológie, sú:
+The basic capabilities of this technology are:
 
-- **Marshalling:** uloženie XML súboru z java objektov
-- **Unmarshalling:** načítanie XML súboru ako java objekty
-- **Generovanie XSD súboru z java objektov**
-- **Generovanie java objektov z XSD súboru**
+- **Marshalling:** save XML file from java objects
+- **Unmarshalling:** Load XML file as java objects
+- **Generating XSD file from java objects**
+- **Generating java objects from XSD file**
 
-Opísané budú marshalling a unmarshalling. Generovanie XSD súboru a java súborov je popísané 
-v článku [JAXB tutoriál – Generovanie XSD schémy z java súborov a naopak](/2014-10-12-java-jaxb-tutorial-generovanie-xsd-schemy-z-java-suborov-a-naopak/).
+Marshalling and unmarshalling will be described. Generating XSD file and java files is described
+in the article [JAXB tutorial - Generating XSD schema from java files and vice versa](/2014-10-12-java-jaxb-tutorial-generating-xsd-schemas-from-java-files-and-vice versa/).
 
-Kódy, ktoré sú v článku na stiahnutie som písal v [Intelijj Idea](http://www.jetbrains.com/idea/) a použil Java SE 7.
+The codes that are in the download article I wrote in [Intelijj Idea](http://www.jetbrains.com/idea/) and used Java SE 7.
 
 
 ### Marshalling
 
-uloženie XML súboru z java objektov.
+Save XML file from java objects.
 
-Majme kompozíciu objektov, kde trieda Person obsahuje atribúty (id, age, name, surname) 
-a atribút address referenciu na objekt typu Address. Trieda Address obsahuje atribúty addressStr a postcode.
+Let's have a composition of objects where the Person class contains attributes (id, age, name, surname)
+and the address attribute is a reference to an object of type Address. The Address class contains the addressStr and postcode attributes.
 
 ### Person.java
  
@@ -131,25 +131,25 @@ public class Address {
 }
 ```
 
-### Vysvetlenie JAXB anotácií v kóde
+### Explanation of JAXB annotations in code
 
-**@XmlRootElement:** určuje koreňový element v xml súbore. Nastavuje sa pre príslušnú triedu.
-**@XmlElement:** dáva na vedomie, že ide o xml element. Nastavuje sa pre príslušný setter.
-**@XmlAttribute:** dáva na vedomie, že ide o xml atribút. Nastavuje sa pre príslušný setter.
+**@XmlRootElement:** specifies the root element in the xml file. It is set for the appropriate class.
+**@XmlElement:** indicates that it is an xml element. It is set for the respective setter.
+**@XmlAttribute:** indicates that it is an xml attribute. It is set for the respective setter.
 
-Ešte jedna maličkosť. Zápis:
+One more little thing. Enrollment:
 
- 
-```java
-@XmlElement(name="address")
-```
 
-Prinúti JAXB nebrať do úvahy defaultne názov xml elementu zo setteru, ale nami definované address.
+`` `java
+@XmlElement (name = "address")
+`` `
 
-Samozrejme, že anotácií a možností ako java kód prispôsobiť pre následné mapovanie s xml je omnoho viac viď 
+Forces JAXB to disregard the default xml element name from the setter, but the address we defined.
+
+Of course, the annotations and options how to customize the Java code for subsequent mapping with xml are much more see
 [project JAXB](https://jaxb.java.net/tutorial/).
 
-Kód, ktorý mapuje tieto objekty a uloží ich do xml je nasledovný.
+The code that maps these objects and saves them to xml is as follows.
 
  
 ```java
@@ -197,7 +197,7 @@ public class Main {
 }
 ```
 
-Výsledkom bude xml súbor java2xml.xml, ktorý sa uloží do domovského adresára.
+The result is the jml2xml.xml xml file, which was saved in the home directory.
 
 ### java2xml.xml
 
@@ -218,12 +218,13 @@ Výsledkom bude xml súbor java2xml.xml, ktorý sa uloží do domovského adres�
 
 ### Unmarshalling
 
-načítanie XML súboru ako Java objekty
+loading XML file as Java objects
 
-Použijeme triedy Person.java a Address.java zo sekcie o marshallingu. Pridáme im metódy toString() pre 
-neskorší jednoduchší výpis a kontrolu java objektov na štandardný výstup.
+Let us use the Person.java and Address.java classes from the marshalling section. 
+Let us add the toString () method for them
+later simpler listing and checking of java objects for standard output.
 
-### toString() pre Person.java
+### toString() for Person.java
 
 ```java
     @Override
@@ -251,9 +252,9 @@ neskorší jednoduchší výpis a kontrolu java objektov na štandardný výstup
 ```
 
 
-Kód zodpovedný za unmarshalling načíta xml súbor xml2java.xml 
-(ktorý sme získali ako výstup zo sekcie o marshalligu), ktorý sa nachádza 
-v domovskom adresári a vypíše na štandardný výstup načítané objekty:
+The code responsible for unmarshalling loads the xml file xml2java.xml
+(which we obtained as an output from the marshallig section), which is located
+in the home directory and prints the loaded objects to standard output:
 
 ```java
 package xml2java;
@@ -283,6 +284,6 @@ public class Main {
 }
 ```
 
-Výstup:
+Output:
 
 ![jaxb2](/assets/icode/jaxb2.png)

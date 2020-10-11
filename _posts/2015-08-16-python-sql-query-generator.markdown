@@ -1,29 +1,39 @@
 ---
 layout: post
-title: Python - Generátor sql dotazov
+title: Python - Sql query generator
 date: 2015-08-16
 categories: programming python
 tags: programming python
 page.image.thumbnail: TODO
 ---
 
-Python je veľmi vhodý pre prácu s textom a súbormi. Veľmi rýchlo si človek dokáže
- napísať šikovné skripty.
+What is needed for application development in the Play! ? How to quickly create a new project.
 
-Nedávno som potreboval nejaké dummy inserty do SQL databázy. Napísal som teda 
-skript **generateSQL.py**, 
-ktorý vygeneruje tieto dummy inserty a uloží ich do súboru **sqlQueries.sql**.
+### Intellij Idea IDE Settings
+
+To work with the Play! you need to install 
+[Scala plugin for Play framework](https://plugins.jetbrains.com/plugin/?id=1347).
+
+![scala](/assets/icode/scala.png)
+
+
+Python is very useful for working with text and files. You can do it very quickly
+  write handy scripts.
+
+I recently needed some dummy inserts into an SQL database. So I wrote
+script **generateSQL.py**,
+which generates these dummy inserts and stores them in the **sqlQueries.sql** file.
 
  
-### Skript generateSQL.py
+### generateSQL.py script
 
 
-Skript obsahuje premenné, ktoré možno vhodne meniť podľa záujmu:
+The script contains variables that can be appropriately changed according to interest:
 
-**dirVar** : cesta, kde sa má vygenerovaný súbor uložiť
-**tableVar** : názov tabuľky
-**loops** : počet vygenerovaných sql dotazov
-**sqlQuery** : nemeniaca sa časť sql dotazu
+**dirVar**: path where the generated file is to be saved
+**tableVar**: table name
+**loops**: number of generated sql queries
+**sqlQuery**: unchanged part of the sql query
 
 ```python
 #!/usr/bin/env python
@@ -63,15 +73,15 @@ print 'Generate sql queries ends'
 ```
 
 
-### Spustenie skriptu generateSQL.py
+### Run the generateSQL.py script
 
 ![script run](/assets/icode/run.png)
  
 
-### Ukážka výstupu skriptu generateSQL.py
+### Sample output of the generateSQL.py script
 
-Výstupom je súbor **sqlQueries.sql**. V tomto prípade sa vygenerovali dummy INSERT  sql dotazy 
-pre tabuľku **user**, ktorá má stĺpce **mail**, **info** a **name**.
+The output is the **sqlQueries.sql** file. In this case, dummy INSERT sql queries where generated
+for the **user** table, which has the columns **mail**, **info**, and **name**.
 
 ```mysql-sql
 INSERT INTO user (mail,info,name) VALUES ('FSWPGEYQRP2EORIOJPAC62GT5KY2YA508EDGWYUJC629Q82XKRE038P59GW2','W1BVI8V0Y2','JBK7KKNUR7W1SYMKTOCQ3EJUK3IQUJ');

@@ -1,39 +1,36 @@
 ---
 layout: post
-title: Java - JAXB tutoriál - Generovanie XSD schémy z java súborov a naopak
+title: Java - JAXB Tutorial - Generating XSD schemas from java files and vice versa
 date: 2014-10-12
 categories: programming java
 tags: programming java jaxb xsd
 page.image.thumbnail: TODO
 ---
 
-JAXB z anglického Java Architecture for XML Binding je významnou technológiou, ktorá umožňuje jednoducho mapovať XML 
-súbory na java objekty a naopak. Navyše dokáže pracovať aj so schémami. 
-Pre tento článok stačí, keď spomeniem [XSD](http://www.w3schools.com/schema/).
+JAXB from the English Java Architecture for XML Binding is a major technology that allows you to easily map XML
+files to Java objects and vice versa. In addition, it can work with schemes.
+For this article is sufficient to mention [XSD](http://www.w3schools.com/schema/).
 
-JAXB je súčasťou štadarného JDK od verzie 6. Momentálne je aktuálna verzia 2.2.12 (11.10.2014). 
+JAXB has been a part of the standard JDK since version 6. Currently, the current version is 2.2.12 (11.10.2014).
 
-Základné schopnosti tejto technológie, sú:
+The basic capabilities of this technology are:
 
-- **Marshalling:** uloženie XML súboru z java objektov
-- **Unmarshalling:** načítanie XML súboru ako java objekty
-- **Generovanie XSD súboru z java objektov**
-- **Generovanie java objektov z XSD súboru**
-
-
-Opísané budú posledné dve a to generovanie XSD schémy z java súborov a generovanie java súborov z XSD schémy. Marshalling a 
-Unmarshalling boli opísané v článku
-[JAXB tutoriál - Marshalling a Unmarshalling](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html).
-
-Kódy, ktoré sú v článku na stiahnutie som písal v [Intelijj Idea](http://www.jetbrains.com/idea/) a použil Java SE 7.
+- **Marshalling:** save XML file from Java objects
+- **Unmarshalling:** Load XML file as Java objects
+- **Generating XSD file from java objects**
+- **Generating java objects from XSD file**
 
 
+The last two will be described, namely generating an XSD schema from java files and generating java files from an XSD schema. Marshalling a
+Unmarshalling were described in the article
+[JAXB - Marshalling a Unmarshalling](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html).
 
-### Generovanie XSD súboru z Java objektov
 
-Generovať XSD súbor z java objektov možno implementáciou vlastného **SchemaOutputResolver**-a. 
-Opäť použijeme kódy tried Person.java a Address.java z predošlého článku 
-[JAXB tutoriál - Marshalling a Unmarshalling](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html).
+### Generate XSD file from Java objects
+
+Generate an XSD file from java objects by implementing your own **SchemaOutputResolver**.
+Again, we will use the Person.java and Address.java class codes from the previous article
+[JAXB - Marshalling a Unmarshalling](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html).
 
 ```java
 package java2xsd;
@@ -56,7 +53,7 @@ public class ICodeSchemaOutputResolver extends SchemaOutputResolver {
 }
 ```
 
-A spustíme generovanie XSD súboru.
+We start generating the XSD file.
 
 
 ```java
@@ -69,10 +66,10 @@ import java.io.IOException;
 
 public class Main {
 
-    // generovanie schemy kodom java
+   // generate schema with Java code
     public static void main(String[] args) {
         try {
-            // zoznam tried, z ktorých sa má generovať
+            // list of classes from which to generate
             JAXBContext jaxbContext = JAXBContext.newInstance(Person.class);
             SchemaOutputResolver sor = new ICodeSchemaOutputResolver();
             jaxbContext.generateSchema(sor);
@@ -85,7 +82,7 @@ public class Main {
 }
 ```
 
-Vygenerovaný súbor schema1.xsd bude mať nasledovný kód.
+The generated schema1.xsd file contains the following code.
 
 
 ```xml
@@ -115,51 +112,51 @@ Vygenerovaný súbor schema1.xsd bude mať nasledovný kód.
 
 
 
-### Generovanie java objektov z XSD súboru
+### Generating java objects from an XSD file
 
-Poslúži na to nástroj **[XJC](http://docs.oracle.com/javase/6/docs/technotes/tools/share/xjc.html)**, 
-ktorý sa nachádza na mieste inštalácie JDK v adresári bin. Ide o JAXB Binding Compiler. 
-Nástroj nemá grafickú nadstavbu.
+Use the tool **[[XJC](http://docs.oracle.com/javase/6/docs/technotes/tools/share/xjc.html)**,
+which is located at the JDK installation site in the bin directory. It's about the JAXB Binding Compiler.
+The tool does not have a graphical extension.
 
-### Použitie XJC
+### Using XJC
 
-```
-xjc -d <cesta_k_adresaru_kde_sa_ma_generovat> <adresa_k_suboru_xsd>
-```
+`` `
+xjc -d <path_to_directory_here_to_generate> <address_to_xsd_file>
+`` `
 
-Najprv sa nastavím do adresára ktorý obsahuje xjc. Na mojom Linuxe je to nasledovne:
+First, I set up a directory that contains xjc. On my Linux, it's like this:
 
-```
+`` `
 cd /usr/lib/jvm/jdk1.7.0_67/bin
-``` 
+`` `
 
-### Spustenie generovania: 
+### Start generation:
 
-```
+`` `
 xjc -d /home/nue/gen/ /home/nue/schema1.xsd
-``` 
+`` `
 
-Prepínač **-d** určí kde sa majú generovať java súbory. Nasleduje potom cesta k xsd schéme.
+The **- d** switch specifies where to generate java files. This is followed by the path to the xsd schema.
 
-XJC vygenevalo súbory: ObjectFactory.java, Address.java, Person.java.
+XJC generated files: ObjectFactory.java, Address.java, Person.java.
 
 ![xjc](/assets/icode/xjc.png)
 
 
-Tí z vás, ktorí skušali 
+Those of you who have tried
 [marshalling](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html)
-s týmito vygenerovanými triedami podľa [minuleho clanku](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html)
- narazili na problém. Nefunguje !  
+with these generated classes by [last article](/2014-10-12-java-jaxb-tutorial-marshalling-a-unmarshalling.html)
+ encountered a problem. Does not work !
 
-Pre takto vygenerované triedy už je potrebné kód mashallingu trošku upraviť. Kód zfunkčnia nasledovné riadky:
+For the classes generated in this way, it is necessary to modify the mashalling code a bit. 
+The code will work with the following lines:
 
 ```java
 ObjectFactory of = new ObjectFactory();
 JAXBElement<Person> jaxbPerson =  of.createPerson(person);
 ```
 
-
-Uvádzam celé znenie  Main.java:
+Here is the full text of Main.java
 
  
 ### Main.java
@@ -189,7 +186,7 @@ public class Main {
 
         person.setAddress(address);
 
-        // pridane
+        // added
         ObjectFactory of = new ObjectFactory();
         JAXBElement<Person> jaxbPerson =  of.createPerson(person);
 
@@ -201,7 +198,7 @@ public class Main {
 
             Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
-            // zformatuje vystup
+            // format the output
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
             jaxbMarshaller.marshal(jaxbPerson, file);
@@ -214,9 +211,7 @@ public class Main {
 }
 ```
 
-
-Pre úplnosť uvádzam vygenerované kódy nástrojom XJC. Aby neboli kódy príliš dlhé, odstránil som komentáre.
-
+For completeness, I present the codes generated by the XJC tool. To keep the codes from being too long, I removed the comments.
 ### ObjectFactory.java
 
 ```java
@@ -321,7 +316,6 @@ public class Person {
     }
 }
 ```
-
 
 
 ### Address.java

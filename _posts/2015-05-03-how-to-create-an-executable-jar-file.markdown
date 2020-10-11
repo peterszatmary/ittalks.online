@@ -1,42 +1,42 @@
 ---
 layout: post
-title: Maven - Ako vytvoriť spustiteľný jar
+title: Maven - How to create an executable jar file
 date: 2015-05-03
 categories: programming maven
 tags: programming maven
 page.image.thumbnail: TODO
 ---
 
-Maven defaultne vytvára nespustiteľný jar archív po builde. To znamená, že po spustení buildu
+By default, Maven creates a non-executable jar archive after building. After running the build
 
+`` `
+mvn: install
+`` `
 
-```
-mvn:install
-```
-
-a následnom pokuse spustiť vygenerované jar
-
- 
-```java -jar xxxx.jar```
-
-obdržíme hlášku **no main manifest attribute, in xxxx.jar**
-
-
-Maven musíme naučiť, že generovaný jar archív má byť spustiteľný 
-([executable jar](http://en.wikipedia.org/wiki/JAR_%28file_format%29#Executable_JAR_files)). 
-Maven vygeneruje [MANIFEST.MF](https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html).
-
-Mojím riešením, ktoré obľubujem je:
-
-- vytvorenie adresára so závislosťami ([maven-dependency-plugin](https://maven.apache.org/plugins/maven-dependency-plugin/))
-- vytvorenie MANIFEST.MF pre jar archív ukazujúci na závislosti spomenuté v prvom bode ( [maven-jar-plugin](https://maven.apache.org/plugins/maven-jar-plugin/) )
-
+then try to run the generated jar
 
  
-Výsledkom takého buildu je spustiteľný jar archív obsahujúci súbor MANIFEST.MF a adresár lib so všetkými potrebnými závislosťami.
+```
+java -jar xxxx.jar
+```
 
-Na záver pripomínam, že je potrebné upraviť v tomto pom.xml ešte parameter **mainClass** , keď konfigurujeme *maven-jar-plugin*. 
-Tento parameter hovorí o tom, ktorá trieda spustí aplikáciu.
+we receive the message **no main manifest attribute, in xxxx.jar**
+
+
+Maven need to learn that the generated spring archive should be executable
+([executable jar](http://en.wikipedia.org/wiki/JAR_%28file_format%29#Executable_JAR_files)).
+Maven will generate [MANIFEST.MF](https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html).
+
+My solution that I like is:
+
+- creating a dependency directory ([maven-dependency-plugin](https://maven.apache.org/plugins/maven-dependency-plugin/))
+- creation of MANIFEST.MF for a spring archive showing the dependencies mentioned in the first point ([maven-jar-plugin](https://maven.apache.org/plugins/maven-jar-plugin/))
+
+ 
+The result of such a build is an executable jar archive containing the MANIFEST.MF file and the lib directory with all the necessary dependencies.
+
+Finally, I remind you that it is necessary to modify the parameter **mainClass** in this pom.xml when configuring *maven-jar-plugin*.
+This parameter tells which class will start the application.
   
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

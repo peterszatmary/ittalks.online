@@ -4,5 +4,3 @@ layout: category
 permalink: /categories/in-slovak/
 taxonomy: in-slovak
 ---
-
-Tato sekcia TODO

@@ -1,23 +1,22 @@
 ---
 layout: post
-title: Maven - Ako pri builde vygenerovať zdrojové kódy aplikácie do samostatného jar
+title: Maven - How to generate a jar test separately during building
 date: 2015-05-03
 categories: programming maven
 tags: programming maven
 page.image.thumbnail: TODO
 ---
 
-Ak je potrebné Maven naučiť generovať zdrojové kódy projektu do samostatného jar archívu
-slúži na to plugin [maven-source-plugin](https://maven.apache.org/plugins/maven-source-plugin/).
+If Maven needs to learn to generate a single test jar archive with all the test classes used for it
+plugin [maven-jar-plugin](https://maven.apache.org/plugins/maven-jar-plugin/) with the **test-jar** switch.
 
-Po spustení 
+After running
 
- 
 ```
 mvn:install
 ```
 
-sa vygeneruje aj jar archív *szatmary.peter.rest.dopatra-1.0-SNAPSHOT-sources.jar* obsahujúci zdrojové kódy projektu.
+the spring archive *szatmary.peter.rest.dopatra-1.0-SNAPSHOT-tests.jar* is also generated.
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -40,19 +39,16 @@ sa vygeneruje aj jar archív *szatmary.peter.rest.dopatra-1.0-SNAPSHOT-sources.j
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-source-plugin</artifactId>
-        <version>2.4</version>
+        <artifactId>maven-jar-plugin</artifactId>
         <executions>
           <execution>
-            <id>attach-sources</id>
             <goals>
-              <goal>jar</goal>
+              <goal>test-jar</goal>
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>      
     </plugins>
-
   </build>
 
   <dependencies>
