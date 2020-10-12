@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Serve to win (Novak Djokovic)
+title: Naservírujte si výťazstvo (Novak Djokovic)
 date: 2020-10-02
 categories: books in-slovak
 tags: books in-slovak
@@ -9,7 +9,7 @@ tags: books in-slovak
 
 
 [Novak Djokovič](https://novakdjokovic.com/en/) je jeden z najlepších profesionálnych tenistov súčastnosti aj všetkých čias.
-Roku 2011 vydal knižku, **[Naservírujte si výťazstvo](https://www.megaknihy.sk/svetove/277615-serve-to-win.html)**
+Roku 2011 vydal knižku, **[Naservírujte si výťazstvo ( Serve to win ) ](https://www.megaknihy.sk/svetove/277615-serve-to-win.html)**
 
 Nasledujúce riadky budú ľahkým výcucom toho, čo som považoval za najdôležitejšie.
 

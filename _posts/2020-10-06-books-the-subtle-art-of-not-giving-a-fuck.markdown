@@ -1,13 +1,13 @@
 ---
 layout: post
-title: The subtle art of not giving a fuck
+title: Jemné umenie mať veci v p**i
 date: 2020-10-06
 categories: books in-slovak
 tags: books in-slovak
 page.image.thumbnail: /assets/imgs/the-subtle-art-of-not-giving-a-fuck.jpg
 ---
 
-Kniha [Jemné umenie mať veci v p**i](https://www.martinus.sk/?uItem=302044&gclid=CjwKCAjwzvX7BRAeEiwAsXExoxMlGax9P1sT_JbYHA6XeYUiIVbWKPOkben1Pl6tFzjl80l0DEhR8BoC9jMQAvD_BwE)
+Kniha [Jemné umenie mať veci v p**i ( The subtle art of not giving a fuck )](https://www.martinus.sk/?uItem=302044&gclid=CjwKCAjwzvX7BRAeEiwAsXExoxMlGax9P1sT_JbYHA6XeYUiIVbWKPOkben1Pl6tFzjl80l0DEhR8BoC9jMQAvD_BwE)
 
 Ide o motivačnú literatúru. Číta sa ľahko. Autor sa nebojí vyjadrovať občas expresívnejšie, čo podľa mňa
 knižke dodáva svieži moderný nádych.

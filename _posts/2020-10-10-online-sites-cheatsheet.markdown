@@ -19,3 +19,6 @@ please [let me know](/about).
 - [Sitemap generator](https://www.xml-sitemaps.com) generates sitemap.xml from URL
 - [Purify CSS](https://purifycss.online) clean your CSS and remove unused parts
 - [Google search console](https://search.google.com/)
+- [Image to CSS](https://javier.xyz/img2css/)
+- [Image to bqse64](https://www.base64-image.de)
+
