@@ -34,7 +34,7 @@ Starting with version 7, the switch can also be used with the String type.
         case "1" : {System.out.println("1");break;}
         case "2" : {System.out.println("2");break;}
         case "3" : {System.out.println("3");break;}
-        default: {System.out.println("ine cislo");break;}
+        default: {System.out.println("another number");break;}
     }
 ```
 
@@ -47,18 +47,18 @@ The value of the primitive types byte, short, int, long can be expressed as a bi
 You can read more at [Oracle dokumentation](http://docs.oracle.com/javase/8/docs/technotes/guides/language/binary-literals.html).
  
 ```java
-// 8 bitovy byte
+// 8 bit byte
 byte aByte = (byte)0b00100001; // value: 33
 
-// 16 bitovy short
+// 16 bit short
 short aShort = (short)0b0010100101000101; // value: 10565
 
-// 32 bitove  int hodnoty
+// 32 bit  int hodnoty
 int anInt1 = 0b00100001010101011010000101000101; // value: 559259973
 int anInt2 = 0b101; // value: 5
 int anInt3 = 0B101; // value: 5
 
-// 64 bitovy long
+// 64 bit long
 long aLong = 0b0010000101010101101000010100010110100001010001011010000101000101L; // value: 2402003296702538053
 ```
 
@@ -88,13 +88,13 @@ try {
     // ....
 } catch (NullPointerException e) {
         e.printStackTrace();
-        System.out.println("informacia na standardny vystup");
+        System.out.println("info to standard output");
 } catch (ArrayIndexOutOfBoundsException e) {
         e.printStackTrace();
-        System.out.println("informacia na standardny vystup");
+        System.out.println("info to standard output");
 } catch (UnsupportedOperationException e) {
         e.printStackTrace();
-        System.out.println("informacia na standardny vystup");
+        System.out.println("info to standard output");
 }
 ```
 
@@ -165,7 +165,7 @@ Map<String, List<String>> l7 = new HashMap<>();
 
 ```java
 List<String> list6 = new ArrayList<String>();
-Map<String, List<String>> l6 = new HashMap<String, List<String>>();</pre> 
+Map<String, List<String>> l6 = new HashMap<String, List<String>>(); 
 ```
 
 <br /><br />
@@ -181,13 +181,13 @@ You can read more at
 #### Java 7
 
 ```java
-long creditCardNumber = 1234_5678_9012_3456L; // 1234567890123456</pre> 
+long creditCardNumber = 1234_5678_9012_3456L; // 1234567890123456 
 ```
 
 #### Java 6
 
 ```java
-long creditCardNumber = 1234567890123456L;</pre> 
+long creditCardNumber = 1234567890123456L; 
 ```
 
 ### java.nio (new io)
