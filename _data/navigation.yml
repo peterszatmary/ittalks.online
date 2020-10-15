@@ -2,10 +2,8 @@
   url: /categories/it-book
 - title: IT days
   url: /categories/it-days
-- title: Linux cheatsheet
-  url: /linux-cheatsheet.html
-- title: Online sites
-  url: /online-sites-cheatsheet.html
+- title: Cheatsheets
+  url: /categories/cheatsheets
 - title: Linux
   url: /categories/linux
 - title: Programming

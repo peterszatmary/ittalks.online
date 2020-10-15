@@ -2,9 +2,8 @@
 layout: post
 title: Online sites cheatsheet
 date: 2020-10-10
-categories: linux programming
-tags: linux programming
-permalink: /online-sites-cheatsheet
+categories: linux programming cheatsheets
+tags: linux programming cheatsheets
 ---
 
 You can find here Linux commands that could help anyone. Also some of them I described

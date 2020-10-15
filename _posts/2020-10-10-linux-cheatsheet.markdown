@@ -2,9 +2,8 @@
 layout: post
 title: Linux cheatsheet
 date: 2015-08-24
-categories: linux
-tags: linux
-permalink: /linux-cheatsheet
+categories: linux cheatsheets
+tags: linux cheatsheets
 ---
 
 You can find here Linux commands that could possibly help anyone. Also some of them I described
