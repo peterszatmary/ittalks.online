@@ -48,18 +48,18 @@ You can read more at [Oracle dokumentation](http://docs.oracle.com/javase/8/docs
  
 ```java
 // 8 bitovy byte
-byte aByte = (byte)0b00100001; // hodnota: 33
+byte aByte = (byte)0b00100001; // value: 33
 
 // 16 bitovy short
-short aShort = (short)0b0010100101000101; // hodnota: 10565
+short aShort = (short)0b0010100101000101; // value: 10565
 
 // 32 bitove  int hodnoty
-int anInt1 = 0b00100001010101011010000101000101; // hodnota: 559259973
-int anInt2 = 0b101; // hodnota: 5
-int anInt3 = 0B101; // hodnota: 5
+int anInt1 = 0b00100001010101011010000101000101; // value: 559259973
+int anInt2 = 0b101; // value: 5
+int anInt3 = 0B101; // value: 5
 
 // 64 bitovy long
-long aLong = 0b0010000101010101101000010100010110100001010001011010000101000101L; // hodnota: 2402003296702538053
+long aLong = 0b0010000101010101101000010100010110100001010001011010000101000101L; // value: 2402003296702538053
 ```
 
 <br /><br />
