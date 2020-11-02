@@ -37,3 +37,5 @@ Nakoniec sa to podarilo aj bez opätovného prehľadávania v knihe.
 - Človek si vlastnú hodnotu nebuduje cez pocity, ktoré v ňom vyvolávajú pozitívne skúsenosti, ale skôr to, čov ňom zanechávajú tie negatívne.
 - Riešenie jedného problému nie je nič iné len začiatkom nového. Život je pritom nikdy nekončiaca séria problémov.
 - Túžba po vačšom množstve pozitívnych skúseností je sama o sebe negatívnou skúsenosťou. Iróniou je, že prijatie negatívnej skúsenosti si samo o sebe stáva pozitívnou skúsenosťou. 
+
+<script type="text/javascript" src="//partner.mrtns.eu/banners/banner.js?type=banner&brand_id=1&uItem=302044&size=full&show_price=1&color=white&z=JZKXBM"></script>

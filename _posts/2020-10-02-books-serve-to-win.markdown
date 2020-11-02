@@ -40,3 +40,5 @@ Avšak citlivosť na niektoré druhy potravín nebola jedinou príčinou problé
 
 Každých 6 mesiacov si Novak dáva robiť krvné testy, ktorými si kontroluje hladinu vitamínov a minerálov, ale
 i úroveň protilátok ako znak, že sa zvyšuje citlivosť na isté potraviny.
+
+<script type="text/javascript" src="//partner.mrtns.eu/banners/banner.js?type=banner&brand_id=1&uItem=216992&size=full&show_price=1&color=white&z=JZKXBM"></script>
