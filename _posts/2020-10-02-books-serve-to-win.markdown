@@ -9,11 +9,11 @@ tags: books in-slovak
 
 
 [Novak Djokovič](https://novakdjokovic.com/en/) je jeden z najlepších profesionálnych tenistov súčastnosti aj všetkých čias.
-Roku 2011 vydal knižku, **[Naservírujte si výťazstvo ( Serve to win ) ](https://www.martinus.sk/?uItem=302044&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)**
+Roku 2011 vydal knižku, **[Naservírujte si výťazstvo ( Serve to win ) ](https://www.martinus.sk/?uItem=216992&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)**
 
 Nasledujúce riadky budú ľahkým výcucom toho, čo som považoval za najdôležitejšie.
 
-[![Naservírujte si výťazstvo](/assets/imgs/serve-to-win.jpg)](https://www.martinus.sk/?uItem=302044&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
+[![Naservírujte si výťazstvo](/assets/imgs/serve-to-win.jpg)](https://www.martinus.sk/?uItem=216992&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
 
 ### Problém
 
