@@ -20,4 +20,5 @@ please [let me know](/about).
 - [Google search console](https://search.google.com/)
 - [Image to CSS](https://javier.xyz/img2css/)
 - [Image to bqse64](https://www.base64-image.de)
+- [Qwant](https://www.qwant.com) The search engine that respects your privacy.
 
