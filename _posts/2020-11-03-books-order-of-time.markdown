@@ -30,7 +30,7 @@ Od Boltzmanna po kvantovú teóriu, od Einsteina po slučku kvantovej gravitáci
  
 ### Pár vlastných poznámok
 
-T
+Téma času ma vždy zaujímala. Toto je jedna z mála tých, ktoré sa výnimočne zaoberajú iba časom nie je zároveň komplikovaná a pretkaná náročnými vzorcami.
 
 - Kvantové superpozície časov rozbýjajú jednotný rovnakou rýchlosťou plynúci čas.
 - Táto myšlienka už prišla od Einsteina.
