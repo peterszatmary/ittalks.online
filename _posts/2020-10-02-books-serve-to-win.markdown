@@ -75,8 +75,17 @@ Ak niekoho zaujíma ako si vyrátať koľko kalórií má dané jedlo môže to 
 - v knihe opisuje čínsku medicínu, ktorá uvažuje o akýchsi vnútornyćh hodinkách v naších telách, čo má dosah na to kedy a čo by sme mali práve robiť respektíve nerobiť v spojení s jedlom. Viac v knižke.
 
 
-### Tréning, spánok
+### Tréning, spánok, regenerácia
 
 - cvičenie zlepšuje spánok, spánok dáva väčšiu energiu cvičiť
 - tréning začína dynamickým stračigom, ktorý stimuluje centrálny nervový systém a zvyšuje prietok krvi
 - 3 hlavné návyky pre kvalitný život : strava, cvičenie, spánok
+- v knihe opisuje ako dosiahnuť flexibilitu pohybu
+- každý deň absolvuje masáže, hovorí, že dnes je bohužial masáž považovaná za luxus (kvôli tomu, že nieje lacná), ale mala bz bzť nutnosťou
+- masáž napomáha regenerácii
+- v knihe opisuje lacný spôsob ako samého seba masírovať pomocou valcov.
+- jogu cvičí už iba základné cviky ako : mačka, pes, kobra, zajac.
+
+
+Kniha sa číta ľahko a obsahuje veľké množstvo rád čo sa týka stravy, jedálničkov, cvičenia, strečingu a jogy.
+Menśia raritka je 14 dňový bezlepkový plán a opis toho ako sa naozaj lepku vyhnúť.
