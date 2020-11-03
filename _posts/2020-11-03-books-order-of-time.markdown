@@ -1,7 +1,7 @@
 ---
 layout: post
 title: O čase
-date: 2020-10-06
+date: 2020-11-03
 categories: books in-slovak
 tags: books in-slovak
 page.image.thumbnail: /assets/imgs/books/o-case.jpg
