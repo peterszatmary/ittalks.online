@@ -4,6 +4,7 @@ title: Naservírujte si výťazstvo (Novak Djokovic)
 date: 2020-10-02
 categories: books in-slovak
 tags: books in-slovak
+page.image.thumbnail: /assets/imgs/books/serve-to-win.jpg
 ---
 
 
@@ -13,7 +14,7 @@ Roku 2011 vydal knižku, **[Naservírujte si výťazstvo ( Serve to win ) ](http
 
 Nasledujúce riadky budú ľahkým výcucom toho, čo som považoval za najdôležitejšie.
 
-[![Naservírujte si výťazstvo](/assets/imgs/serve-to-win.jpg)](https://www.martinus.sk/?uItem=216992&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
+[![Naservírujte si výťazstvo](/assets/imgs/books/serve-to-win.jpg)](https://www.martinus.sk/?uItem=216992&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
 
 ### Problém
 
@@ -63,7 +64,7 @@ Ak niekoho zaujíma ako si vyrátať koľko kalórií má dané jedlo môže to 
 - dochucovadlá : horčica, chren, wasabi, ocot.
 - z ovocia a zeleniny najviac uhlohydrátov obsahujú zemiaky
 - koreňová zelenina obsahuje takisto veľa uhlohydrátov
-- čerstvý tuniak je červený :D (žial totosom nevedel)
+- čerstvý tuniak je červený :D (žial toto som nevedel)
 - podľa Novaka je dôležité nielen to ćo jeme, ale aj kedy to jeme (telo poćas dňa inak reaguje, niečo iné potrebuje podľa toho, čo od neho chcete) a prečo to jeme.1
 - tvrdí, že treba jesť pomalšie. (Myslím, že toto vie mnoho z nás už z detstva len na to akosi zabúdame ja teda určite)
 - trávenie začína v ústach, preto pomaly. Nedostatočné požutie znamená menej enzýmov a následné zťaženie práce žalúdku
@@ -88,4 +89,4 @@ Ak niekoho zaujíma ako si vyrátať koľko kalórií má dané jedlo môže to 
 
 
 Kniha sa číta ľahko a obsahuje veľké množstvo rád čo sa týka stravy, jedálničkov, cvičenia, strečingu a jogy.
-Menśia raritka je 14 dňový bezlepkový plán a opis toho ako sa naozaj lepku vyhnúť.
+Menšia raritka je 14 dňový bezlepkový plán a opis toho ako sa naozaj lepku vyhnúť.

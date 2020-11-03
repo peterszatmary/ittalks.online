@@ -4,7 +4,7 @@ title: Jemné umenie mať veci v p**i
 date: 2020-10-06
 categories: books in-slovak
 tags: books in-slovak
-page.image.thumbnail: /assets/imgs/the-subtle-art-of-not-giving-a-fuck.jpg
+page.image.thumbnail: /assets/imgs/books/the-subtle-art-of-not-giving-a-fuck.jpg
 ---
 
 Kniha [Jemné umenie mať veci v p**i ( The subtle art of not giving a fuck )](https://www.martinus.sk/?uItem=302044&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
@@ -12,7 +12,7 @@ Kniha [Jemné umenie mať veci v p**i ( The subtle art of not giving a fuck )](h
 Ide o motivačnú literatúru. Číta sa ľahko. Autor sa nebojí vyjadrovať občas expresívnejšie, čo podľa mňa
 knižke dodáva svieži moderný nádych.
 
-[![the-subtle-art-of-not-giving-a-fuck](/assets/imgs/the-subtle-art-of-not-giving-a-fuck.jpg)](https://www.martinus.sk/?uItem=302044&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
+[![the-subtle-art-of-not-giving-a-fuck](/assets/imgs/books/the-subtle-art-of-not-giving-a-fuck.jpg)](https://www.martinus.sk/?uItem=302044&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
 
 [Markovi Mansonovi](https://markmanson.net) sa touto knihou podarilo vytvoriť bestseller s viac ako milión predanými kusmi po celom svete.
 

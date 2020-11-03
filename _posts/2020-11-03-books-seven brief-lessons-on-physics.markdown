@@ -4,6 +4,7 @@ title: Sedem krátkych prednášok o fyzike (Carlo Roveli)
 date: 2020-11-03
 categories: books in-slovak
 tags: books in-slovak
+page.image.thumbnail: /assets/imgs/7-brief-lessons-on-physics.jpg
 ---
 
 [Carlo Roveli](https://www.theguardian.com/science/2019/mar/31/carlo-rovelli-you-ask-the-questions-time-travel-is-just-what-we-do-every-day-theoretical-physics)
@@ -17,7 +18,7 @@ Napriek tomu, že mám už prečítaných viac kníh na témy, ktoré v knihe Ro
 predstaviť pútavú verziu s informáciami, ktoré boli pre mňa nové.
 
 
-[![7 kratkych prednasok o fyzike](/assets/imgs/7-brief-lessons-on-physics.jpg)](https://www.martinus.sk/?uItem=247343&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
+[![7 kratkych prednasok o fyzike](/assets/imgs/books/7-brief-lessons-on-physics.jpg)](https://www.martinus.sk/?uItem=247343&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)
 
 
 V knihe sa venuje nasledujúcim
