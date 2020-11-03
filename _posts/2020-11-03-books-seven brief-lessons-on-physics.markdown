@@ -8,7 +8,7 @@ tags: books in-slovak
 
 [Carlo Roveli](https://www.theguardian.com/science/2019/mar/31/carlo-rovelli-you-ask-the-questions-time-travel-is-just-what-we-do-every-day-theoretical-physics)
 je profesorom na univerzite v Marseille, kde prednáša teoretickú fyziku. Spolu s Lee Smolinom vytvoril
-teóriu kvantovej gravitácie (loop quantum gravity), ktorá dnes predstavuje jednu z ciest ako zjednotiť gravitáciu a kvantovú mechaniku.
+teóriu kvantovej gravitácie [(loop quantum gravity)](https://en.wikipedia.org/wiki/Loop_quantum_gravity), ktorá dnes predstavuje jednu z ciest ako zjednotiť gravitáciu a kvantovú mechaniku.
 
 Carlo Rovelli je jedným z tých autorov, ktorý sa čítajú ľahko napriek tomu, že rozoberá najzložitejśie problémy
 fyziky dneška. Knižku som prečítal na posedenie. A to nezvyknem čítať naraz veľa. (70 strán uź je na mňa dosť).
