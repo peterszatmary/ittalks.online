@@ -26,10 +26,12 @@ Od Boltzmanna po kvantovú teóriu, od Einsteina po slučku kvantovej gravitáci
  Carlo Rovelli odhaľuje túto záhadu a pozýva nás predstaviť si svet, kde je čas v nás a my nie 
  sme v čase.
  
-[![O case](https://www.martinus.sk/?uItem=275882&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)](/assets/imgs/books/o-case.jpg)
+![[O case](https://www.martinus.sk/?uItem=275882&z=JZKXBM&utm_source=z%3DJZKXBM&utm_medium=url&utm_campaign=partner)](/assets/imgs/books/o-case.jpg)
  
  
 ### Pár vlastných poznámok
+
+T
 
 - Kvantové superpozície časov rozbýjajú jednotný rovnakou rýchlosťou plynúci čas.
 - Táto myšlienka už prišla od Einsteina.
