@@ -22,4 +22,5 @@ please [let me know](/about).
 - [Image to base64](https://www.base64-image.de)
 - [Qwant](https://www.qwant.com) The search engine that respects your privacy.
 - [Lets encrypt](https://letsencrypt.org/getting-started/) Certification Authority for free
+- [CertBot](https://certbot.eff.org/instructions) run Certbot once to automatically get free HTTPS certificates forever.
 
