@@ -44,9 +44,9 @@ Takisto sa dá vyrátať, že za 26 rokov počet tranzistorov v procesore stúpo
 Skúsme zjednodušiť túto závislosť (pretože máme iba dve merania) a predpokladať ju lineárnou. V tom prípade
 by rýchlosť rastu bola každý rok 1,39. To znamená každý rok 1,39 krát viac tranzistorov na našich najnovších procesoroch.
 Z týchto čísel sa dá jednoducho vyrátať, že niekde medzi **rokmi 2025 až 2026** počet tranzistorov **vyrovná a následne prekoná**
-počet neurónov v našich mozgoch. 
+počet neurónov v našich mozgoch. Výpočet ráta aj s údajom 100 miliárd neurónov (vyskytuje sa totižto v zdrojoch aj takýto údaj). (2026 - 115 miliárd)
 
-Uvidíme ...
+Ako to bude skutočne to čoskoro uvidíme.
 
 
 
