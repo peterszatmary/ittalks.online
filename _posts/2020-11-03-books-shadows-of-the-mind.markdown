@@ -39,7 +39,7 @@ Takže,
 
 M1 chipy môžete nájsť napríklad v najnovších [macbookoch od Apple](https://www.alza.sk/macbook-air-13-m1-vesmirne-sivy-sk-2020-d6252254.htm?o=2).
 
-Pokúsim sa vyvodiť z tohto porovnania ďalšie dve jednoduché závery skôr sa lepšie hodí slovo prespoklady.
+Pokúsim sa vyvodiť z tohto porovnania ďalšie dve jednoduché závery / predpoklady.
 
 Približne z týchto dvoch čísel môžme vidieť, že o pár rokov, ak pôjde vývoj podobne a podobne rýchlo, 
 počet tranzistorov na procesore vyrovná a následne predbehne počet neurónov v našich mozgoch. 
