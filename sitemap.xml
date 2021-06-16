@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://ittalks.online/</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux-cheatsheet.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/online-sites-cheatsheet.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/categories/linux/</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/categories/programming/</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/categories/in-slovak/</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/categories/books/</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/about/</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/online-sites-cheatsheet</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/2020/10/08/screenfly-helps-with-your-site-resolution-tests.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/books/in-slovak/2020/10/06/books-the-subtle-art-of-not-giving-a-fuck.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/books/in-slovak/2020/10/02/books-serve-to-win.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/in-slovak/2020/10/01/graficka-reprezentacia-krivky-ucenia-vyjadrena-v-pojmoch.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2015/09/14/linux-how-to-change-priority-of-running-process.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2015/09/14/downloading-videos-from-youtube.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux-cheatsheet</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2015/08/24/linux-how-to-capture-screen-to-video.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/python/2015/08/16/python-sql-query-generator.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2015/08/15/virtualization-of-64-bit-computers-on-64-bit-computers-with-vt-x-a-amd-x.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2015/07/26/linux-how-to-convert-html-to-pdf.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2015/07/20/linux-commands-for-work-with-images.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/programming/2014/10/09/linux-how-to-generate-assembler-from-c-code.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/09/28/linux-how-to-convert-image-formats-to-pdf-and-vice-versa.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/09/28/linux-cow-that-makes-moo.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/08/24/linux-jdk-8-instalation.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/08/21/linux-work-with-pdf.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/08/16/linux-distribution-information.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/08/16/linux-cpu-information-commands.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/linux/2014/06/21/linux-information-about-your-hardware-from-linux.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2015/08/02/play-framework-i18n.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2015/08/02/play-framework-how-to-start.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/maven/2015/05/03/maven-how-to-generate-application-source-code-in-a-separate-jar-file-during-building.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/maven/2015/05/03/maven-how-to-generate-a-jar-test-separately-during-building.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/maven/2015/05/03/maven-how-to-generate-a-jar-archive-with-javadoc-during-build.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/maven/2015/05/03/how-to-create-an-executable-jar-file.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/10/12/java-jaxb-tutorial-marshalling-a-unmarshalling.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/10/12/java-generating-xsd-schemas-from-java-files-and-vice-versa.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/10/05/java-what-is-new-in-java-7.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/sql/2014/09/21/union-query-optimization.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/09/21/java-jvm-threads.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/python/2014/09/14/python-analysis-of-csv-files.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/css/html/2014/08/20/the-simpsons-in-css.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/08/20/java-tower-of-hanoi.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/08/19/java-recursive-and-non-recursive-directory-structure-traversal.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/08/17/string-vs-stringbuilder-vs-stringbuffer.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/08/17/java-usage-of-a-class-without-being-defined-in-a-classpath.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/08/17/java-measuring-time-slots-in-code.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ittalks.online/programming/java/2014/08/17/java-jvm-virtual-machine-type-recognition.html</loc>
+  <lastmod>2020-10-11T20:05:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
